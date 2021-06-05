@@ -15,10 +15,13 @@ $ yarn add @rasi2661/roblox.js
 Fetching a user's username:
 
 ```js
-const robloxJS = require("@rasi2661/robloxJS");
+const rbx = require("@rasi2661/roblox.js");
 
-let user = new robloxJS.user(1); //pass userid
-let username = user.username();
-console.log(username);
-// ROBLOX
+async function getusername(){
+  let user = new rbx.User(1); //pass userid
+  let username = await user.username();
+  console.log(username);
+  // ROBLOX
+}
+getusername()
 ```
