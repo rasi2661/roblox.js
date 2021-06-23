@@ -1,4 +1,5 @@
 # Roblox.JS
+Unofficial ROBLOX.JS API Wrapper.
 
 ## Installation
 Using npm:
